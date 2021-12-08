@@ -1,0 +1,44 @@
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation:"vertical"
+    spacing: "5dp"
+    padding: "5dp"
+    BoxLayout:
+        Label:
+    BoxLayout:
+        orientation: "horizontal"
+        size_hint: 1, .2
+        Label:
+            text: root.my_text
+        Button:
+            text: "UP"
+            on_press: root.on_button_up_click()
+            on_press: root.on_any_button_click()
+        Button:
+            text: "RIGHT"
+            on_press: root.on_button_right_click()
+            on_press: root.on_any_button_click()
+        Button:
+            text: "DOWN"
+            on_press: root.on_button_down_click()
+            on_press: root.on_any_button_click()
+        Button:
+            text: "LEFT"
+            on_press: root.on_button_left_click()
+            on_press: root.on_any_button_click()
+        Button:
+            text: "START"
+            on_press: root.on_button_start_click()
+
+
+
+
+
+
+
+
+
+
+
+
